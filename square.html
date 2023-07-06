@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+.parent {
+  background: #f44336;
+  width: 480px;
+  height: 400px; 
+  position: relative;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffff00;
+  margin: 0;
+}
+
+.child.green {
+  left: 100px;
+  background: #00ff00;
+  margin: 0;
+}
+
+.child.blue { 
+  top: 250; 
+  left: 330; 
+  width: 150px; 
+  height: 150px; 
+  background: #0000ff; 
+}
+
+.child.brown {
+  top: 300px;
+  left: 280px;
+  background: #964B00;
+  margin: 0;
+}
+
+</style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child"></div>
+    <div class="child green"></div>
+    <div class="child blue"></div> 
+    <div class="child brown"></div>
+  </div>
+</body>
+</html>
